@@ -7,7 +7,7 @@ export default async function Navbar() {
   const user = await getUser();
 
   return (
-    <nav className="bg-gray-200 w-full shadow-md text-black">
+    <nav className="bg-gray-200 w-full shadow-md text-black sticky top-0 z-50">
       <div className="max-w-[90%] xl:max-w-[1200px] mx-auto py-3 flex justify-between items-center ">
         <div className="text-3xl font-bold text-3x">
           <Link href="/">Blogger</Link>

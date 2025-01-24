@@ -16,8 +16,8 @@ export default async function Home() {
           >
             <h1 className='font-bold text-lg'>{post.title}</h1>
             <p className="text-gray-600 mt-2 mb-2">{post.body.slice(0, 50)}...</p>
-            <Link href={`/post/${post.id}`}>
-              <button className='py-2 px-5 bg-green-500 hover:bg-green-600 transition text-white rounded-lg'>See Details</button>
+            <Link href={`/blog/${post.id}`}>
+              <button className='py-2 px-5 bg-green-500 hover:bg-green-600 transition text-white rounded-lg font-semibold'>See Details</button>
             </Link>
           </div>
         ))}

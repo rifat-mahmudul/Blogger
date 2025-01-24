@@ -10,7 +10,7 @@ export default async function Page() {
   }
 
   return (
-    <div className="container mx-auto text-center md:text-left">
+    <div className="container mx-auto text-center min-h-[calc(100vh-75px)]">
       <h2 className="text-4xl font-bold mt-8 m-2 text-center">Welcome to my profile</h2>
     </div>
   );

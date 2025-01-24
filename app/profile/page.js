@@ -11,7 +11,7 @@ export default async function Page() {
 
   return (
     <div className="container mx-auto text-center md:text-left">
-      <h2 className="text-2xl font-bold mt-4 m-2">Welcome to my profile</h2>
+      <h2 className="text-4xl font-bold mt-8 m-2 text-center">Welcome to my profile</h2>
     </div>
   );
 }

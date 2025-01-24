@@ -27,16 +27,16 @@ export default async function Navbar() {
         <div>
           {user ? (
             <div className="flex items-center space-x-4">
-              <span className="text-white">Welcome, {user.given_name || user.email}</span>
+              <span className="text-pink-500">Welcome, {user.given_name || user.email}</span>
               <LogoutLink>
-                <button className="bg-red-500 px-4 py-2 rounded hover:bg-red-600 transition">
+                <button className="bg-red-500 px-4 py-2 rounded hover:bg-red-600 transition text-white font-semibold">
                   Logout
                 </button>
               </LogoutLink>
             </div>
           ) : (
             <LoginLink>
-              <button className="bg-green-500 px-4 py-2 rounded hover:bg-green-600 transition">
+              <button className="bg-green-500 px-4 py-2 rounded hover:bg-green-600 transition text-white font-semibold">
                 Login
               </button>
             </LoginLink>
